@@ -201,6 +201,18 @@ footer p {
 @media (max-width: 600px) {
     h1 {
         font-size: 8vh;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.8vh;
+        transition: all 1s;
     }
 
     #quem-somos {
@@ -245,7 +257,7 @@ footer p {
     }
 
     iframe {
-        width: 450px;
+        width: 90%;
     }
 
     .tab li {
