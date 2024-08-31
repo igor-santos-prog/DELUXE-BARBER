@@ -160,6 +160,9 @@ iframe {
 }
 
 .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     background-color: rgb(28, 28, 28);
     max-width: 800px;
@@ -168,9 +171,12 @@ iframe {
     box-shadow: 0px 3px 3px 3px rgba(43, 43, 43, 0.797);
 }
 
+#servico {
+    text-align: start;
+}
+
 .tab ul {
-    align-items: center;
-    justify-content: center;
+    
     list-style: none;
     padding: 10px;
 }
@@ -216,11 +222,10 @@ footer p {
         place-items: center;
         gap: 0px;
         padding-bottom: 0px;
-        height: 45rem;
     }
 
     #img-gg {
-        visibility: hidden;
+        display: none;
     }
 
     #img-pqn {
