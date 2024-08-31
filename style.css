@@ -245,15 +245,11 @@ footer p {
     }
 
     .img-main {
+        display: grid;
         border-radius: 50%;
         width: 300px;
         height: 300px;
         object-fit: cover;
-    }
-
-    .barber h2 {
-        display: flex;
-        justify-content: center;
     }
 
     iframe {
